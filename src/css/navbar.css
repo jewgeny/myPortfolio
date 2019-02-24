@@ -1,0 +1,79 @@
+.navBarOpacity{
+  background: black !important;
+  opacity: .85 !important;
+  height: 100vh !important;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+
+}
+
+
+.navListUnderline{
+  border-bottom: 10px solid transparent !important;
+  transition: all 1s;
+}
+
+.navListUnderline:hover{
+  border-bottom: 10px solid #909800 !important;
+  transition: all 1s;
+}
+
+
+.fade-enter{
+  opacity: 0;
+}
+
+.fade-enter-active{
+  opacity: 1;
+  animation: fadeInRight 1s ease-in;
+}
+
+.fade-exit{
+  opacity: 1;
+  animation: fadeOutRight 1s ease-out;
+}
+
+.fade-exit-active{
+  opacity: 0;
+}
+
+.menuMobil{
+  padding: 20px !important;
+
+}
+
+.menuMobilIcon{
+ z-index: 1;
+}
+
+@media screen and (max-width: 470px) {
+    .menuMobil{
+      padding: 5px !important;
+      /*position: absolute;*/
+
+    }
+
+    .liMobil{
+      font-size: 25px !important
+    }
+
+    .menuMobilIcon{
+      background: rgba(0,0,0,0.8);
+      padding: 1px 5px;
+      cursor: pointer !important;
+    }
+
+    .navListUnderline{
+      border-bottom: 5px solid transparent !important;
+      transition: all 1s;
+    }
+
+    .navListUnderline:hover{
+      border-bottom: 5px solid #909800 !important;
+      transition: all 1s;
+    }
+}

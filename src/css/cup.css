@@ -1,0 +1,100 @@
+.cup{
+  background: url("../images/cup.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 2vw;
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  left: 35%;
+  z-index: -1;
+}
+
+img.smokeEffect{
+  position: relative;
+  top: 40%;
+  left: 20%;
+  width: 30vw;
+  animation-name: makeSmoke;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  transition: all 1.5s;
+  opacity: 0;
+
+}
+
+@keyframes makeSmoke {
+  0%{
+                 transform:
+                 translateX(5%) rotate(45deg);
+                 filter: blur(3px);
+                 opacity: 0;
+                 width: 10vw}
+
+  25%{
+                 opacity: 0.2;
+                 filter: drop-shadow(4px 4px 4px #000);}
+  50%{
+                  transform:
+                  translateX(0%) rotate(45deg);
+                  opacity: 0.3;
+                  filter: drop-shadow(4px 4px 4px #000);
+                  width:20vw; }
+  100%{
+                  transform: translateX(4%) rotate(45deg);
+                  opacity: 0;
+                  width:30vw; }
+}
+
+
+@media screen and (max-width: 470px){
+   .cup{
+     position: absolute;
+     top: 5%;
+     width: 50vw;
+     height: 50vw;
+     overflow: hidden;
+   }
+
+   img.smokeEffect{
+     position: relative;
+     top: 40%;
+     left: 20%;
+     width: 50vw;
+     animation-name: makeSmoke;
+     animation-duration: 10s;
+     animation-timing-function: linear;
+     animation-delay: 0.5s;
+     animation-iteration-count: infinite;
+     animation-direction: normal;
+     transition: all 1.5s;
+     opacity: 0;
+
+   }
+
+   @keyframes makeSmoke {
+     0%{
+                    transform:
+                    translateX(5%) rotate(45deg);
+                    filter: blur(3px);
+                    opacity: 0;
+                    width: 20vw}
+
+     25%{
+                    opacity: 0.2;
+                    filter: drop-shadow(5px 5px 5px #000);}
+     50%{
+                     transform:
+                     translateX(4%) rotate(45deg);
+                     opacity: 0.4;
+                     filter: drop-shadow(5px 5px 5px #000);
+                     width:40vw; }
+     100%{
+                     transform: translateX(4%) rotate(45deg);
+                     opacity: 0;
+                     width:60vw; }
+   }
+}

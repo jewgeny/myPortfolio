@@ -1,0 +1,25 @@
+.welcome{
+  color:#909800;
+}
+
+.welcomeContainer{
+  width: 70%;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  z-index: -1;
+}
+
+
+
+@media screen and (max-width: 470px) {
+  .welcomeContainer{
+    background: black;
+    opacity: 0.8;
+    padding: 5vw;
+    position: absolute;
+    display: block;
+    left: 15%;
+    z-index: -1;
+  }
+}
