@@ -3,6 +3,8 @@ import "./css/kompotenzen.css";
 import {TransitionGroup, CSSTransition} from "react-transition-group";
 import { Progress, Button } from 'reactstrap';
 import $ from 'jquery';
+import {FaReact, FaJs, FaSass, FaCss3, FaHtml5} from "react-icons/fa";
+import jquery from './images/jquery.svg';
 
 
 class Kompotenzen extends Component{
@@ -55,27 +57,27 @@ class Kompotenzen extends Component{
            <div className="progressWrapper">
 
               <div className="wrapperSkills d-flex flex-column">
-                <p>HTML</p>
+                <p><FaHtml5 className="iconSkills"/> HTML5</p>
                     <div className="divHtml progressState d-flex align-items-center" style={{width: "0"}} ><p className="pHtml pProgress"></p></div>
                </div>
 
                <div className="wrapperSkills d-flex flex-column">
-                 <p>CSS</p>
+                 <p><FaCss3 className="iconSkills" /> CSS3</p>
                      <div className="divCss progressState d-flex align-items-center" style={{width: "0"}} ><p className="pCss pProgress"></p></div>
                 </div>
 
                 <div className="wrapperSkills d-flex flex-column">
-                  <p>JavaScript</p>
+                  <p><FaJs className="iconSkills" /> JavaScript</p>
                       <div className="divJava progressState d-flex align-items-center" style={{width: "0"}} ><p className="pJava pProgress"></p></div>
                  </div>
 
                  <div className="wrapperSkills d-flex flex-column">
-                   <p>jQuery</p>
+                   <p><img className="jquery" src={jquery} /> jQuery</p>
                        <div className="divjQuery progressState d-flex align-items-center" style={{width: "0"}} ><p className="pjQuery pProgress"></p></div>
                   </div>
 
                   <div className="wrapperSkills d-flex flex-column">
-                    <p>React</p>
+                    <p><FaReact className="iconSkills react"/> React</p>
                         <div className="divReact progressState d-flex align-items-center" style={{width: "0"}} ><p className="pReact pProgress"></p></div>
                    </div>
 

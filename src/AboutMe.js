@@ -13,8 +13,9 @@ class AboutMe extends Component{
         <div className="my-4 wrapperAboutMe">
            <h2>Über mich</h2>
            <hr className="hrAboutMe"/>
-           <img src={meImg} className="me showImg"/>
-              <div className="pWrapper">
+          <div className="contentWrapper">
+           <img src={meImg} className="meImg showImg"/>
+               <div className="pContainer">
                  <p>Darf ich mich vorstellen? Eugen Kuhn.
                    Ich bin 33 Jahre alt und wohne in Hamburg, der schönsten Stadt der Welt :).<br/>
                    Seit vielen Jahren interessiere ich mich für die visuelle Gestaltung. Dazu zählen Web -und Printdesign.
@@ -29,7 +30,9 @@ class AboutMe extends Component{
                    Ich liebe, was ich tue und ich habe einen hohen Anspruch an Qualität und Funktionalität.
                    Das ist für mich die Voraussetzung für konstant gute Ergebnisse.
                  </p>
-             </div>
+              </div>
+
+          </div>
         </div>
       </div>
      )

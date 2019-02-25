@@ -5,6 +5,7 @@
   position: absolute;
   height: 0;
   width: 100%;
+  height: 100%;
   z-index: -1;
 }
 
@@ -16,11 +17,46 @@
   transition: all 1s;
 }
 
+.pContainer{
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  padding-right: 3vw;
+  height: 400px;
+}
+
+::-webkit-scrollbar {
+  width: 7px !important;
+}
+
+::-webkit-scrollbar-corner {
+  background: rgba(0,0,0,0) !important; }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(144, 152, 0, .5) !important;
+}
+
+
+.contentWrapper{
+  margin-top: 5vw;
+  display: flex !important;
+  padding: 0 15vw !important;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.meImg{
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  margin-bottom: 2vw;
+}
+
 @keyframes goUP{
   0%{height: 0;}
   100%{height: 100%;}
 }
-
 
 .wrapperAboutMe{
    display: flex;
@@ -37,7 +73,7 @@
 
 @keyframes makeImg{
   0%{width: 0; height: 0}
-  100%{width: 16vw; height: 20vw}
+  100%{width: 25vw; height: 26vw}
 }
 
 .showImg{
@@ -48,12 +84,6 @@
   transition: all 1s;
 }
 
-.pWrapper{
-  display: flex;
-  justify-content: center;
-  overflow: scroll;
-  height: 30vw;
-}
 
 h2{
   color: white;
@@ -77,36 +107,38 @@ p{
 }
 
 
-::-webkit-scrollbar {
-  width: 7px !important;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 4px !important;
-  background-color: rgba(144, 152, 0, .5);
-}
+
 
 @media screen and (max-width: 470px){
-  .pWrapper{
-    display: flex;
-    justify-content: center;
-    overflow: scroll;
-    height: 400px;
+  .contentWrapper{
+    margin-top: 2vw;
+    display: flex !important;
+    padding: 0 8vw !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
   }
 
-  img.me{
-     width: 0;
-     border-radius: 50%;
-     height: 0;
-     border: 3px solid #ccc;
-     margin: 7vw 0;
+  .pContainer{
+    margin-top: 8vw;
+    height: 90vw;
   }
 
-  hr{
-    margin: 0 !important;
-    height: 0.1px !important;
-    width: 60%;
-    background-color: #ccc;
+  .meImg{
+    margin-top: 5vw;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    margin-bottom: 0;
+    width: 45vw;
+    height: 47vw
   }
+
+  .hrAboutMe{
+    width: 80%;
+  }
+
+
 
   p{
     width: 80%;

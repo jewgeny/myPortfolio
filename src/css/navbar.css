@@ -1,7 +1,6 @@
 .navBarOpacity{
-  background: black !important;
-  opacity: .85 !important;
-  height: 100vh !important;
+  background: rgba(0, 0, 0, 0.85);
+  height: 100% !important;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -52,7 +51,7 @@
 
 @media screen and (max-width: 470px) {
     .menuMobil{
-      padding: 5px !important;
+      padding: 10px !important;
       /*position: absolute;*/
 
     }
