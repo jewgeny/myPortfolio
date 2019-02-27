@@ -7,8 +7,9 @@ import {NavLink} from "react-router-dom";
 class AboutMe extends Component{
 
    render(){
-
+  
      return(
+
       <div className="wrapper wrapperUp">
         <div className="my-4 wrapperAboutMe">
            <h2>Über mich</h2>

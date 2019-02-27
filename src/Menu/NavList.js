@@ -10,19 +10,19 @@ class NavList extends Component{
 
         <ul className="menuMobil nav navBarOpacity">
               <li className="nav-item">
-                 <NavLink to="/" onClick={this.props.setIsHome} className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Home</NavLink>
+                 <NavLink to="/" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Home</NavLink>
               </li>
              <li className="nav-item">
-                <NavLink to="/aboutMe" onClick={this.props.setIsAboutMe} className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Über mich</NavLink>
+                <NavLink to="/aboutMe" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Über mich</NavLink>
              </li>
              <li className="nav-item">
-                <NavLink to="/kompotenzen" onClick={this.props.setIsKompotenzen} className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kompotenzen</NavLink>
+                <NavLink to="/kompotenzen" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kompotenzen</NavLink>
              </li>
              <li className="nav-item">
-                <NavLink to="/" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Portfolio</NavLink>
+                <NavLink to="/portfolio" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Portfolio</NavLink>
              </li>
              <li className="nav-item">
-                <NavLink to="/contact" onClick={this.props.setIsContact} className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kontakt</NavLink>
+                <NavLink to="/contact" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kontakt</NavLink>
              </li>
         </ul>
 
