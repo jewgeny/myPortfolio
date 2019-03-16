@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/kfz_folierung_gesamt.ded63661.jpg"
   },
   {
-    "revision": "fb2a84b9dd5be6d44ef3",
+    "revision": "fd18ee8bf80782cbad08",
     "url": "/static/css/main.665031e4.chunk.css"
   },
   {
@@ -160,8 +160,8 @@ self.__precacheManifest = [
     "url": "/static/media/imac-ipad.82337048.jpg"
   },
   {
-    "revision": "fb2a84b9dd5be6d44ef3",
-    "url": "/static/js/main.fb2a84b9.chunk.js"
+    "revision": "fd18ee8bf80782cbad08",
+    "url": "/static/js/main.fd18ee8b.chunk.js"
   },
   {
     "revision": "ee9d8ed7441785353d4071adaf0b2c1a",
@@ -320,7 +320,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.cf229b0a.chunk.css"
   },
   {
-    "revision": "865ad04918b5026a1eb554b38b8b8e53",
+    "revision": "6b1668b7b9c3471a70d7b2a144c5f981",
     "url": "/index.html"
   }
 ];
