@@ -16,7 +16,7 @@ class Kompetenzen extends Component{
 
       <div className="wrapper wrapperUp">
         <div className="my-4 wrapperKompotenzen">
-            <h2>Kompotenzen</h2>
+            <h2>Kompetenzen</h2>
             <hr className="hrKompotenzen"/>
             <div className="progressWrapper">
                 <Kompetenzen_Menu />
