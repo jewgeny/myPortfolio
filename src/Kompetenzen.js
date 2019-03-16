@@ -2,13 +2,13 @@ import React, {Component} from "react";
 import "./css/kompotenzen.css";
 import {TransitionGroup, CSSTransition} from "react-transition-group";
 import { Progress, Button } from 'reactstrap';
-import Kompotenz_Web from "./Kompotenzen_Web";
-import Kompotenz_Print from "./Kompotenzen_Print";
-import Kompotenzen_Menu from "./Menu/Kompotenzen_Menu";
+import Kompetenz_Web from "./Kompetenzen_Web";
+import Kompetenz_Print from "./Kompetenzen_Print";
+import Kompetenzen_Menu from "./Menu/Kompetenzen_Menu";
 import {Route} from "react-router-dom";
 
 
-class Kompotenzen extends Component{
+class Kompetenzen extends Component{
 
    render(){
 
@@ -19,9 +19,9 @@ class Kompotenzen extends Component{
             <h2>Kompotenzen</h2>
             <hr className="hrKompotenzen"/>
             <div className="progressWrapper">
-                <Kompotenzen_Menu />
-                <Route exact path="/kompotenzen/" render={() => <Kompotenz_Web />}  />
-                <Route path="/kompotenzen/print" render={() => <Kompotenz_Print />} />
+                <Kompetenzen_Menu />
+                <Route exact path="/kompetenzen/" render={() => <Kompetenz_Web />}  />
+                <Route path="/kompetenzen/print" render={() => <Kompetenz_Print />} />
 
             </div>
         </div>
@@ -30,4 +30,4 @@ class Kompotenzen extends Component{
    }
 }
 
-export default Kompotenzen;
+export default Kompetenzen;

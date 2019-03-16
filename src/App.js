@@ -7,7 +7,7 @@ import Welcome from "./Welcome";
 import Menu from "./Menu/Menu";
 import Cup from "./Cup";
 import AboutMe from "./AboutMe";
-import Kompotenzen from "./Kompotenzen";
+import Kompetenzen from "./Kompetenzen";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
@@ -25,7 +25,6 @@ class App extends Component {
     handleClick() {
       this.setState({toggle: !this.state.toggle,
                    showMenu: !this.state.showMenu});
-
   }
 
 
@@ -42,7 +41,7 @@ class App extends Component {
                    handleClick={this.handleClick.bind(this)}
           />
            <Route path="/aboutMe" render={() => <AboutMe />} />
-           <Route path="/kompotenzen" render={()=> <Kompotenzen />} />
+           <Route path="/kompetenzen" render={()=> <Kompetenzen />} />
            <Route path="/portfolio" render={() => <Portfolio />} />
            <Route path="/contact" render={() => <Contact />} />
 

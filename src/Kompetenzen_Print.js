@@ -1,9 +1,11 @@
 import React, {Component} from "react";
-import {FaReact, FaJs, FaSass, FaCss3, FaHtml5} from "react-icons/fa";
 import $ from 'jquery';
-import jquery from './images/jquery.svg';
+import ps from './images/printIcons/ps.svg';
+import id from "./images/printIcons/id.svg";
+import ai from "./images/printIcons/ai.svg";
+import corel_draw from "./images/printIcons/corel_draw.svg";
 
-class Kompotenz_Web extends Component{
+class Kompetenz_Print extends Component{
   componentDidMount(){
      let counter = 0;
      let htmlDivElement = document.querySelector(".divHtml");
@@ -14,8 +16,7 @@ class Kompotenz_Web extends Component{
      let pJavaElement = document.querySelector(".pJava");
      let jQueryDivElement = document.querySelector(".divjQuery");
      let pjQueryElement = document.querySelector(".pjQuery");
-     let reactDivElement = document.querySelector(".divReact");
-     let pReactElement = document.querySelector(".pReact");
+
 
 
          let makeProgress = (count, max, elemDiv, elemP) => {
@@ -34,11 +35,10 @@ class Kompotenz_Web extends Component{
               }, 30)
          }
 
-       makeProgress(counter, 90, htmlDivElement, htmlPElement);
+       makeProgress(counter, 80, htmlDivElement, htmlPElement);
        makeProgress(counter, 85, cssDivElement, pCssElement);
-       makeProgress(counter, 75, javaDivElement, pJavaElement);
-       makeProgress(counter, 80, reactDivElement, pjQueryElement);
-       makeProgress(counter, 70, jQueryDivElement, pReactElement);
+       makeProgress(counter, 80, javaDivElement, pJavaElement);
+       makeProgress(counter, 75, jQueryDivElement, pjQueryElement);
 
   }
 
@@ -47,33 +47,27 @@ class Kompotenz_Web extends Component{
      return(
             <>
                   <div className="wrapperSkills d-flex flex-column">
-                    <p><FaHtml5 className="iconSkills"/> HTML5</p>
-                        <div className="divHtml progressState d-flex align-items-center" style={{width: "0"}} ><p className="pHtml pProgress"></p></div>
+                   <p><img className="icons" src={ps} /> Photoshop</p>
+                        <div className="divHtml progressState d-flex align-items-center"><p className="pHtml pProgress"></p></div>
                    </div>
 
                    <div className="wrapperSkills d-flex flex-column">
-                     <p><FaCss3 className="iconSkills" /> CSS3</p>
-                         <div className="divCss progressState d-flex align-items-center" style={{width: "0"}} ><p className="pCss pProgress"></p></div>
+                      <p><img className="icons" src={id} /> Indesign</p>
+                         <div className="divCss progressState d-flex align-items-center"><p className="pCss pProgress"></p></div>
                     </div>
 
                     <div className="wrapperSkills d-flex flex-column">
-                      <p><FaJs className="iconSkills" /> JavaScript</p>
+                      <p><img className="icons" src={ai} /> Illustrator</p>
                           <div className="divJava progressState d-flex align-items-center" style={{width: "0"}} ><p className="pJava pProgress"></p></div>
                      </div>
 
                      <div className="wrapperSkills d-flex flex-column">
-                       <p><img className="jquery" src={jquery} /> jQuery</p>
+                       <p><img className="icons" src={corel_draw} /> CorelDraw</p>
                            <div className="divjQuery progressState d-flex align-items-center" style={{width: "0"}} ><p className="pjQuery pProgress"></p></div>
                       </div>
-
-                      <div className="wrapperSkills d-flex flex-column">
-                        <p><FaReact className="iconSkills react"/> React</p>
-                            <div className="divReact progressState d-flex align-items-center" style={{width: "0"}} ><p className="pReact pProgress"></p></div>
-                       </div>
-
           </>
       )
    }
 }
 
-export default Kompotenz_Web;
+export default Kompetenz_Print;

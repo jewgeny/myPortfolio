@@ -16,7 +16,7 @@ class NavList extends Component{
                 <NavLink to="/aboutMe" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Über mich</NavLink>
              </li>
              <li onClick={this.props.handleClick} className="nav-item">
-                <NavLink to="/kompotenzen" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kompotenzen</NavLink>
+                <NavLink to="/kompetenzen" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kompetenzen</NavLink>
              </li>
              <li onClick={this.props.handleClick} className="nav-item">
                 <NavLink to="/portfolio" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Portfolio</NavLink>
