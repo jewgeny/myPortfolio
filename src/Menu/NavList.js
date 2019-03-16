@@ -9,19 +9,19 @@ class NavList extends Component{
       <>
 
         <ul className="menuMobil nav navBarOpacity">
-              <li className="nav-item">
+              <li onClick={this.props.handleClick} className="nav-item">
                  <NavLink to="/" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Home</NavLink>
               </li>
-             <li className="nav-item">
+             <li onClick={this.props.handleClick} className="nav-item">
                 <NavLink to="/aboutMe" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Über mich</NavLink>
              </li>
-             <li className="nav-item">
+             <li onClick={this.props.handleClick} className="nav-item">
                 <NavLink to="/kompotenzen" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kompotenzen</NavLink>
              </li>
-             <li className="nav-item">
+             <li onClick={this.props.handleClick} className="nav-item">
                 <NavLink to="/portfolio" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Portfolio</NavLink>
              </li>
-             <li className="nav-item">
+             <li onClick={this.props.handleClick} className="nav-item">
                 <NavLink to="/contact" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kontakt</NavLink>
              </li>
         </ul>

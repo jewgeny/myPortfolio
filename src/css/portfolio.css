@@ -5,30 +5,154 @@
   position: absolute;
   height: 100%;
   width: 100%;
+  overflow: scroll;
   z-index: -1;
+
 }
 
-.navBarPortfolio{
-  width: 35vw;
-}
 
-.wrapPortfolio{
-  width: 70vw;
+.containerProjects{
+  margin: 0 auto !important;
+  padding: 0vw !important;
+  padding-left: 5vw !important;
+
 }
 
 
 .buttonProjekte{
   border: 1px solid white;
+  text-decoration: none !important;
   background: none;
   color: white;
   padding: .5vw 1vw;
+  margin: 0 1vw;
   transition: all 1s;
 }
 
 .buttonProjekte:hover{
    border: 1px solid #909800;
+   color: #909800 !important;
+}
+
+.link{
+  text-decoration: none !important;
+}
+
+.link:hover{
+  color: #909800;
+}
+
+.singleProduct{
+  width: 25vw;
+  height: 20vw;
+}
+
+.wrapperProjekt{
+  margin-left: 5vw;
+}
+
+.h3SingleProduct{
+  color: white;
+}
+
+.wrapperSingleProduct{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.hrProjects{
+  border: .5px solid white;
+  width: 100%;
+  float: left;
+  margin-top: 0vw;
+}
+
+.backToSelection{
+  color: #909800;
+  font-size: 25px;
+
+}
+
+.backToSelection:hover{
+  color: #909800;
+  text-decoration: none;
+  opacity: .8;
+}
+
+.wrapperCarusal{
+  /*border: 1px solid white;*/
+  width: 350px;
+  height: auto;
+  overflow: hidden;
 }
 
 .imgPortfolio{
-   width: 20vw !important;
+   width: 350px !important;
+   transition: all 1s;
+   cursor: pointer;
+}
+
+.imgPortfolio:hover{
+   filter:grayscale(100%);
+}
+
+.arrow{
+  font-size: 2.5vw;
+  color: #909800;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.arrow:hover{
+  opacity: .8;
+}
+
+
+@media only screen and (max-width: 600px){
+  .wrapperSingleProduct{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imgPortfolio{
+     width: 280px !important;
+
+  }
+
+  .wrapperCarusal{
+    width: 280px;
+  }
+
+  .arrow{
+    font-size: 8vw;
+  }
+
+
+  .singleProduct{
+    width: 65vw;
+    height: 60vw;
+    margin: 0 auto;
+    margin-top: -2vw;
+    margin-bottom: 3vw;
+  }
+
+  .wrapperProjekt{
+    padding: 5vw 4vw!important;
+
+  }
+
+
+  .containerProjects{
+    padding: 0 !important;
+    padding-left: 3vw !important;
+    margin: 0 6vw !important;
+  }
+
+  .buttonProjekte{
+     font-size: 4vw !important;
+     padding: 1vw 2vw !important;
+     margin: 0vw 2vw !important;
+  }
 }

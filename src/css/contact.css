@@ -6,6 +6,7 @@
   height: 100%;
   width: 100%;
   z-index: -1;
+  overflow: scroll;
 }
 
 .wrapperUp{
@@ -82,7 +83,7 @@
 
 
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 600px){
 
   .contactWrapper{
      margin-top: 5vw;

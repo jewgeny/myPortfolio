@@ -8,6 +8,7 @@ import "../css/navbar.css";
 class Menu extends Component {
 
 
+
   render() {
     const style = {
       overflow: 'visible',
@@ -26,7 +27,7 @@ class Menu extends Component {
                     height="1em"
                     onClick={this.props.handleClick}
                     style={style}
-                    className="menuMobilIcon"
+                    className="menuMobilIcon position"
                   >
                     <Motion
                       style={{
@@ -64,8 +65,7 @@ class Menu extends Component {
                       <TransitionGroup component={null}>
                             {this.props.showMenu && (
                                <CSSTransition timeout={200} classNames="">
-                                 <NavList
-                                          isAboutMe={this.props.isAboutMe} />
+                                 <NavList handleClick={this.props.handleClick} />
 
                                </CSSTransition>
                            )}

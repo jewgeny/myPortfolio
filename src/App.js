@@ -12,7 +12,6 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
 
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -46,6 +45,7 @@ class App extends Component {
            <Route path="/kompotenzen" render={()=> <Kompotenzen />} />
            <Route path="/portfolio" render={() => <Portfolio />} />
            <Route path="/contact" render={() => <Contact />} />
+
 
 
     </>

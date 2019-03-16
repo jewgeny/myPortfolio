@@ -3,9 +3,9 @@
 }
 
 .welcomeContainer{
-  width: 70%;
+  width: 50%;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 30%;
   z-index: -1;
 }
@@ -15,11 +15,13 @@
 @media screen and (max-width: 470px) {
   .welcomeContainer{
     background: black;
+    width: 70%;
     opacity: 0.8;
     padding: 5vw;
     position: absolute;
     display: block;
     left: 15%;
+    top: 40%;
     z-index: -1;
   }
 }
