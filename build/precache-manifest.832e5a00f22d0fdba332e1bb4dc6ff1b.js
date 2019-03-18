@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ded6366178840462af39cb5d63de043b",
-    "url": "/static/media/kfz_folierung_gesamt.ded63661.jpg"
+    "revision": "296ec11e848244621503ac1d9a9c6bcd",
+    "url": "/static/media/banner2.296ec11e.jpg"
   },
   {
-    "revision": "fd18ee8bf80782cbad08",
-    "url": "/static/css/main.665031e4.chunk.css"
+    "revision": "160bea26ea7b3f0cfcb6",
+    "url": "/static/css/main.dd422881.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/cup.ed89c497.png"
   },
   {
-    "revision": "f9606bae65d6ecfed14b",
-    "url": "/static/js/2.f9606bae.chunk.js"
+    "revision": "b6dd560bbcdf736e4a82",
+    "url": "/static/js/2.b6dd560b.chunk.js"
   },
   {
     "revision": "ee8a42c1e49231772f7188ed79d7f689",
@@ -64,12 +64,16 @@ self.__precacheManifest = [
     "url": "/static/media/login.feefe730.jpg"
   },
   {
-    "revision": "982808524024130042bfe3256fb1c15a",
-    "url": "/static/media/weather_app.98280852.jpg"
+    "revision": "8dc91a19f86952a764eea105703ed7eb",
+    "url": "/static/media/weather_app.8dc91a19.jpg"
   },
   {
     "revision": "ea7c0f2aeea67123e7aa399472640cea",
     "url": "/static/media/online_shop.ea7c0f2a.jpg"
+  },
+  {
+    "revision": "58178f1c76a5966343e175e359e2e0c7",
+    "url": "/static/media/todos.58178f1c.jpg"
   },
   {
     "revision": "5dd792778c27ddd52282b40bc30a03f9",
@@ -160,16 +164,16 @@ self.__precacheManifest = [
     "url": "/static/media/imac-ipad.82337048.jpg"
   },
   {
-    "revision": "fd18ee8bf80782cbad08",
-    "url": "/static/js/main.fd18ee8b.chunk.js"
+    "revision": "ded6366178840462af39cb5d63de043b",
+    "url": "/static/media/kfz_folierung_gesamt.ded63661.jpg"
   },
   {
     "revision": "ee9d8ed7441785353d4071adaf0b2c1a",
     "url": "/static/media/menuekarte.ee9d8ed7.jpg"
   },
   {
-    "revision": "296ec11e848244621503ac1d9a9c6bcd",
-    "url": "/static/media/banner2.296ec11e.jpg"
+    "revision": "160bea26ea7b3f0cfcb6",
+    "url": "/static/js/main.160bea26.chunk.js"
   },
   {
     "revision": "371a29fb0ec267690bcb5c4b8c65b54b",
@@ -308,6 +312,22 @@ self.__precacheManifest = [
     "url": "/static/media/orders.deab03e8.jpg"
   },
   {
+    "revision": "a9f4ab3c3502d54b7f2b18caa9525dff",
+    "url": "/static/media/tasks.a9f4ab3c.jpg"
+  },
+  {
+    "revision": "62db6d117908b5fac29a0e520ecd7677",
+    "url": "/static/media/task_done.62db6d11.jpg"
+  },
+  {
+    "revision": "a6b99298d79002a10c5055eaf5eaa7ee",
+    "url": "/static/media/smartphone.a6b99298.jpg"
+  },
+  {
+    "revision": "10b1a573cfcc5e329ee9701e1e5f1003",
+    "url": "/static/media/smartphone_done.10b1a573.jpg"
+  },
+  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/static/media/logo.5d5d9eef.svg"
   },
@@ -316,11 +336,11 @@ self.__precacheManifest = [
     "url": "/static/media/bg.dd7b1916.jpg"
   },
   {
-    "revision": "f9606bae65d6ecfed14b",
+    "revision": "b6dd560bbcdf736e4a82",
     "url": "/static/css/2.cf229b0a.chunk.css"
   },
   {
-    "revision": "6b1668b7b9c3471a70d7b2a144c5f981",
+    "revision": "92ca057f8187ee87708db6ea2240b617",
     "url": "/index.html"
   }
 ];

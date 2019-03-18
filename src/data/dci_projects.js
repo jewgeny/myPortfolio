@@ -33,6 +33,12 @@ import online_shop_img_2 from "../images/projects/dci/online_shop/chef_salat.jpg
 import online_shop_img_3 from "../images/projects/dci/online_shop/veggie.jpg";
 import online_shop_img_4 from "../images/projects/dci/online_shop/orders.jpg";
 
+//todolist
+import todolist from "../images/projects/dci/todos.jpg";
+import todolist_img_1 from "../images/projects/dci/todos/tasks.jpg";
+import todolist_img_2 from "../images/projects/dci/todos/task_done.jpg";
+import todolist_img_3 from "../images/projects/dci/todos/smartphone.jpg";
+import todolist_img_4 from "../images/projects/dci/todos/smartphone_done.jpg";
 
 
 
@@ -71,5 +77,12 @@ export const dciprojects = [
                   url: "jewgenys-restaurant.netlify.com",
                   tasks: "Erstellung eines online Shops",
                   tools: "Bootstrap, React"},
+
+                  {img: todolist,
+                   images: [todolist, todolist_img_1, todolist_img_2, todolist_img_3, todolist_img_4],
+                   titel: "to do list",
+                   url: "jewgenys-todolist.netlify.com/",
+                   tasks: "Erstellung einer to do Liste",
+                   tools: "Bootstrap, React"},
 
 ]
