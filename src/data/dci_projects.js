@@ -53,7 +53,7 @@ export const dciprojects = [
               {img: login,
                images: [login, login_img_1, login_img_2, login_img_3, login_img_4 ],
                titel: "Login-Area",
-               url: "login-area-jewgeny.herokuapp.com",
+               url: "login-area.netlify.com",
                tasks: "Erstellung einer Login-Area",
                tools: "Bootstrap, React"},
 
@@ -67,21 +67,21 @@ export const dciprojects = [
                 {img: weather_app,
                  images: [weather_app, weather_img_1, weather_img_2, weather_img_3, weather_img_4],
                  titel: "Weather App",
-                 url: "weather-app-info-jewgeny.herokuapp.com",
+                 url: "weather-app-info.netlify.com",
                  tasks: "Erstellung einer Wetter App",
                  tools: "Bootstrap, React"},
 
                  {img: online_shop,
                   images: [online_shop, online_shop_img_1, online_shop_img_2, online_shop_img_3, online_shop_img_4],
                   titel: "Jewgeny's Restaurant",
-                  url: "jewgenys-restaurant.herokuapp.com",
+                  url: "jewgenys-restaurant.netlify.com",
                   tasks: "Erstellung eines online Shops",
                   tools: "Bootstrap, React"},
 
                   {img: todolist,
                    images: [todolist, todolist_img_1, todolist_img_2, todolist_img_3, todolist_img_4],
                    titel: "to do list",
-                   url: "to-do-list-jewgeny.herokuapp.com",
+                   url: "jewgenys-todolist.netlify.com",
                    tasks: "Erstellung einer to do Liste",
                    tools: "Bootstrap, React"},
 
