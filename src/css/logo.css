@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Yesteryear');
+
+.logoJewgeny{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 70px;
+  border: 3px solid white;
+  background: grey;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
+  font-family: 'Yesteryear', cursive;
+  text-shadow: #CCC 1px 0 15px;
+}
+
+.logoFont{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  color: #909800;
+}

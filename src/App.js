@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './css/body.css';
+import "./css/logo.css";
 import './loader.js';
 import {BrowserRouter, Switch, Route, Redirect} from "react-router-dom";
 import Welcome from "./Welcome";

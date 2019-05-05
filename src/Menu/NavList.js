@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {NavLink, Route, Redirect} from "react-router-dom";
 import "../css/navbar.css";
+import Logo from "../Logo";
 
 class NavList extends Component{
 
@@ -9,6 +10,7 @@ class NavList extends Component{
       <>
 
         <ul className="menuMobil nav navBarOpacity">
+              <Logo />
               <li onClick={this.props.handleClick} className="nav-item">
                  <NavLink to="/" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Home</NavLink>
               </li>
