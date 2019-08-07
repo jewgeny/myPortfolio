@@ -5,7 +5,7 @@ import id from "./images/printIcons/id.svg";
 import ai from "./images/printIcons/ai.svg";
 import corel_draw from "./images/printIcons/corel_draw.svg";
 
-class Kompetenz_Print extends Component{
+class KompetenzPrint extends Component{
   componentDidMount(){
      let counter = 0;
      let htmlDivElement = document.querySelector(".divHtml");
@@ -47,22 +47,22 @@ class Kompetenz_Print extends Component{
      return(
             <>
                   <div className="wrapperSkills d-flex flex-column">
-                   <p><img className="icons" src={ps} /> Photoshop</p>
+                   <p><img className="icons" alt="ps" src={ps} /> Photoshop</p>
                         <div className="divHtml progressState d-flex align-items-center"><p className="pHtml pProgress"></p></div>
                    </div>
 
                    <div className="wrapperSkills d-flex flex-column">
-                      <p><img className="icons" src={id} /> Indesign</p>
+                      <p><img className="icons" alt="id" src={id} /> Indesign</p>
                          <div className="divCss progressState d-flex align-items-center"><p className="pCss pProgress"></p></div>
                     </div>
 
                     <div className="wrapperSkills d-flex flex-column">
-                      <p><img className="icons" src={ai} /> Illustrator</p>
+                      <p><img className="icons" alt="ai" src={ai} /> Illustrator</p>
                           <div className="divJava progressState d-flex align-items-center" style={{width: "0"}} ><p className="pJava pProgress"></p></div>
                      </div>
 
                      <div className="wrapperSkills d-flex flex-column">
-                       <p><img className="icons" src={corel_draw} /> CorelDraw</p>
+                       <p><img className="icons" alt="corel draw" src={corel_draw} /> CorelDraw</p>
                            <div className="divjQuery progressState d-flex align-items-center" style={{width: "0"}} ><p className="pjQuery pProgress"></p></div>
                       </div>
           </>
@@ -70,4 +70,4 @@ class Kompetenz_Print extends Component{
    }
 }
 
-export default Kompetenz_Print;
+export default KompetenzPrint;

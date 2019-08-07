@@ -56,7 +56,31 @@ import pension_img_2 from "../images/projects/pension_cecilie/entspannung.jpg";
 import pension_img_3 from "../images/projects/pension_cecilie/zimmer.jpg";
 import pension_img_4 from "../images/projects/pension_cecilie/responsive.jpg";
 
+//Sidereum Bestattungen
+import sidereum_bestattungen from "../images/projects/sidereum.jpg";
+import sidereum_img_1 from "../images/projects/sidereum_bestattungen/sterbeort.jpg";
+import sidereum_img_2 from "../images/projects/sidereum_bestattungen/kontaktdaten.jpg";
+import sidereum_img_3 from "../images/projects/sidereum_bestattungen/sargauswahl.jpg";
+import sidereum_img_4 from "../images/projects/sidereum_bestattungen/zusammenfassung.jpg";
+
+//yaku restaurante
+import yaku_restaurante from "../images/projects/yaku_restaurante.jpg";
+import yaku_img_1 from "../images/projects/yaku_restaurante/menu.jpg";
+import yaku_img_2 from "../images/projects/yaku_restaurante/ueber_uns.jpg";
+import yaku_img_3 from "../images/projects/yaku_restaurante/reservierung.jpg";
+import yaku_img_4 from "../images/projects/yaku_restaurante/contact.jpg";
+
+
 export const ownprojects = [
+      {img: sidereum_bestattungen,
+            images: [sidereum_bestattungen, sidereum_img_1, sidereum_img_2, sidereum_img_3, sidereum_img_4],
+            titel: "Sidereum Bestattungen",
+            url: "sidereum-bestattungen.netlify.com",
+            branche: "Bestattungsinstitut",
+            tasks: "Website-Konzept -und Erstellung, Logo",
+            tools: "React, Photoshop, Illustrator"
+      },
+
       {img: daniel_zurba,
              images: [daniel_zurba, daniel_img_1, daniel_img_2, daniel_img_3, daniel_img_4],
              titel: "Daniel Zurba",
@@ -64,7 +88,15 @@ export const ownprojects = [
              branche: "Fließenleger",
              tasks: "Website-Konzept -und Erstellung",
              tools: "WordPress, Photoshop"
+      },
 
+      {img: yaku_restaurante,
+            images: [yaku_img_1, yaku_img_2, yaku_img_3, yaku_img_4],
+            titel: "Yaku Restaurante",
+            url: "yaku-restaurante.de",
+            branche: "Gastronomie",
+            tasks: "Website-Konzept -und Erstellung",
+            tools: "React, Photoshop"
       },
 
       {img: hangover_flyer,

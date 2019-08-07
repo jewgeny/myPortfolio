@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {NavLink, Route, Redirect} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import "../css/navbar.css";
 import Logo from "../Logo";
 

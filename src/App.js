@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/body.css';
 import "./css/logo.css";
 import './loader.js';
-import {BrowserRouter, Switch, Route, Redirect} from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 import Welcome from "./Welcome";
 import Menu from "./Menu/Menu";
 import Cup from "./Cup";

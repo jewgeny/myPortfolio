@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
 import {FaTh, FaChevronRight, FaChevronLeft} from "react-icons/fa";
 
-class Dci_Single_Product extends Component{
+class DciSingleProduct extends Component{
     constructor(props){
       super(props);
       this.state = {counter: -2}
@@ -45,7 +45,7 @@ class Dci_Single_Product extends Component{
              <FaChevronLeft onClick={this.decArrow.bind(this)} className="arrow" />
              <div className="wrapperCarusal d-flex justify-content-center align-items-center">
                {this.props.dciprojects.images.map((elem, index) => {
-                   return <img key={index} src={elem} style={{transform: `translate(${this.state.counter * -100}%,0)`,  transition: 'transform .5s',}} className="imgPortfolio" />
+                   return <img key={index} alt={elem} src={elem} style={{transform: `translate(${this.state.counter * -100}%,0)`,  transition: 'transform .5s',}} className="imgPortfolio" />
                  })
                 }
               </div>
@@ -62,7 +62,7 @@ class Dci_Single_Product extends Component{
                   <li className="p-1"><b>Tools: </b> {this.props.dciprojects.tools}</li>
                   {this.props.dciprojects.url.length > 0 &&
                         <li className="p-1"><b>Website-Link: </b>
-                           <a className="link" target="_blank" href={"http://"+this.props.dciprojects.url}>
+                           <a className="link" target="_blank" rel="noopener noreferrer" href={"http://"+this.props.dciprojects.url}>
                              {this.props.dciprojects.url}
                             </a>
                         </li>
@@ -77,4 +77,4 @@ class Dci_Single_Product extends Component{
    }
 }
 
-export default Dci_Single_Product;
+export default DciSingleProduct;

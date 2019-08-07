@@ -43,19 +43,40 @@ import todolist_img_4 from "../images/projects/dci/todos/smartphone_done.jpg";
 
 
 export const dciprojects = [
+            {img: online_shop,
+                images: [online_shop, online_shop_img_1, online_shop_img_2, online_shop_img_3, online_shop_img_4],
+                titel: "Jewgeny's Restaurant",
+                url: "jewgenys-restaurant.netlify.com",
+                tasks: "Erstellung eines online Shops",
+                tools: "Bootstrap, React"},
+            
+            {img: todolist,
+                images: [todolist, todolist_img_1, todolist_img_2, todolist_img_3, todolist_img_4],
+                titel: "to do list",
+                url: "jewgenys-todolist.netlify.com",
+                tasks: "Erstellung einer to do Liste",
+                tools: "Bootstrap, React"},
+            
+            {img: weather_app,
+                images: [weather_app, weather_img_1, weather_img_2, weather_img_3, weather_img_4],
+                titel: "Weather App",
+                url: "weather-app-info.netlify.com",
+                tasks: "Erstellung einer Wetter App",
+                tools: "Bootstrap, React"},
+            
+            {img: login,
+                images: [login, login_img_1, login_img_2, login_img_3, login_img_4 ],
+                titel: "Login-Area",
+                url: "login-area.netlify.com",
+                tasks: "Erstellung einer Login-Area",
+                tools: "Bootstrap, React"},
+ 
              {img: band,
               images: [band, band_img_1, band_img_2, band_img_3, band_img_4],
               titel: "Overferst & Kuhn",
               url: "overferst-kuhn.netlify.com",
               tasks: "Erstellung einer Onepage-Website in einer Gruppenarbeit. Zulässige Tools: JavaScript",
               tools: "Bootstrap, JavaScript"  },
-
-              {img: login,
-               images: [login, login_img_1, login_img_2, login_img_3, login_img_4 ],
-               titel: "Login-Area",
-               url: "login-area.netlify.com",
-               tasks: "Erstellung einer Login-Area",
-               tools: "Bootstrap, React"},
 
               {img: evernote,
                images: [evernote, evernote_img_1, evernote_img_2, evernote_img_3, evernote_img_4 ],
@@ -64,25 +85,5 @@ export const dciprojects = [
                tasks: "Erstellung einer Kopie (Onepage-Website) von der Website Evernote in einer Gruppenarbeit",
                tools: "Bootstrap, JavaScript"  },
 
-                {img: weather_app,
-                 images: [weather_app, weather_img_1, weather_img_2, weather_img_3, weather_img_4],
-                 titel: "Weather App",
-                 url: "weather-app-info.netlify.com",
-                 tasks: "Erstellung einer Wetter App",
-                 tools: "Bootstrap, React"},
-
-                 {img: online_shop,
-                  images: [online_shop, online_shop_img_1, online_shop_img_2, online_shop_img_3, online_shop_img_4],
-                  titel: "Jewgeny's Restaurant",
-                  url: "jewgenys-restaurant.netlify.com",
-                  tasks: "Erstellung eines online Shops",
-                  tools: "Bootstrap, React"},
-
-                  {img: todolist,
-                   images: [todolist, todolist_img_1, todolist_img_2, todolist_img_3, todolist_img_4],
-                   titel: "to do list",
-                   url: "jewgenys-todolist.netlify.com",
-                   tasks: "Erstellung einer to do Liste",
-                   tools: "Bootstrap, React"},
 
 ]

@@ -1,9 +1,9 @@
 import React, {Component} from "react";
-import {FaReact, FaJs, FaSass, FaCss3, FaHtml5} from "react-icons/fa";
+import {FaReact, FaJs, FaCss3, FaHtml5, FaAngular} from "react-icons/fa";
 import $ from 'jquery';
 import jquery from './images/jquery.svg';
 
-class Kompetenz_Web extends Component{
+class KompetenzWeb extends Component{
   componentDidMount(){
      let counter = 0;
      let htmlDivElement = document.querySelector(".divHtml");
@@ -16,6 +16,8 @@ class Kompetenz_Web extends Component{
      let pjQueryElement = document.querySelector(".pjQuery");
      let reactDivElement = document.querySelector(".divReact");
      let pReactElement = document.querySelector(".pReact");
+     let angularDivElement = document.querySelector(".divAngular");
+     let pAngularElement = document.querySelector(".pAngular");
 
 
          let makeProgress = (count, max, elemDiv, elemP) => {
@@ -37,9 +39,10 @@ class Kompetenz_Web extends Component{
        makeProgress(counter, 90, htmlDivElement, htmlPElement);
        makeProgress(counter, 85, cssDivElement, pCssElement);
        makeProgress(counter, 75, javaDivElement, pJavaElement);
-       makeProgress(counter, 80, reactDivElement, pjQueryElement);
-       makeProgress(counter, 70, jQueryDivElement, pReactElement);
-
+       makeProgress(counter, 50, jQueryDivElement, pjQueryElement);
+       makeProgress(counter, 75, reactDivElement,  pReactElement);
+       makeProgress(counter, 50, angularDivElement,  pAngularElement);
+      
   }
 
 
@@ -62,7 +65,7 @@ class Kompetenz_Web extends Component{
                      </div>
 
                      <div className="wrapperSkills d-flex flex-column">
-                       <p><img className="jquery" src={jquery} /> jQuery</p>
+                       <p><img className="jquery" alt="jquery" src={jquery} /> jQuery</p>
                            <div className="divjQuery progressState d-flex align-items-center" style={{width: "0"}} ><p className="pjQuery pProgress"></p></div>
                       </div>
 
@@ -71,9 +74,14 @@ class Kompetenz_Web extends Component{
                             <div className="divReact progressState d-flex align-items-center" style={{width: "0"}} ><p className="pReact pProgress"></p></div>
                        </div>
 
+                       <div className="wrapperSkills d-flex flex-column">
+                        <p><FaAngular className="iconSkills"/> Angular</p>
+                            <div className="divAngular progressState d-flex align-items-center" style={{width: "0"}} ><p className="pAngular pProgress"></p></div>
+                       </div>
+
           </>
       )
    }
 }
 
-export default Kompetenz_Web;
+export default KompetenzWeb;

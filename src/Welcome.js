@@ -30,7 +30,7 @@ class Welcome extends Component{
 
       return(
         <div className="welcomeContainer">
-          <h3 className="welcome"></h3>
+          <h3 className="welcome"> </h3>
        </div>
        )
    }

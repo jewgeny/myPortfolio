@@ -6,7 +6,7 @@ class Cup extends Component{
    render(){
      return(
         <div className="cup">
-          <img src={rauch} className="smokeEffect" />
+          <img src={rauch} alt="smoke" className="smokeEffect" />
         </div>
      )
    }

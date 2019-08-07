@@ -1,10 +1,8 @@
 import React, {Component} from "react";
 import "./css/kompotenzen.css";
-import {TransitionGroup, CSSTransition} from "react-transition-group";
-import { Progress, Button } from 'reactstrap';
-import Kompetenz_Web from "./Kompetenzen_Web";
-import Kompetenz_Print from "./Kompetenzen_Print";
-import Kompetenzen_Menu from "./Menu/Kompetenzen_Menu";
+import KompetenzWeb from "./Kompetenzen_Web";
+import KompetenzPrint from "./Kompetenzen_Print";
+import KompetenzenMenu from "./Menu/Kompetenzen_Menu";
 import {Route} from "react-router-dom";
 
 
@@ -19,9 +17,9 @@ class Kompetenzen extends Component{
             <h2>Kompetenzen</h2>
             <hr className="hrKompotenzen"/>
             <div className="progressWrapper">
-                <Kompetenzen_Menu />
-                <Route exact path="/kompetenzen/" render={() => <Kompetenz_Web />}  />
-                <Route path="/kompetenzen/print" render={() => <Kompetenz_Print />} />
+                <KompetenzenMenu />
+                <Route exact path="/kompetenzen/" render={() => <KompetenzWeb />}  />
+                <Route path="/kompetenzen/print" render={() => <KompetenzPrint />} />
 
             </div>
         </div>

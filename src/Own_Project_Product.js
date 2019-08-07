@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
 import {FaTh, FaChevronRight, FaChevronLeft} from "react-icons/fa";
 
-class Own_Single_Product extends Component{
+class OwnSingleProduct extends Component{
     constructor(props){
       super(props);
       this.state = {counter: -2}
@@ -46,7 +46,7 @@ class Own_Single_Product extends Component{
              <FaChevronLeft onClick={this.decArrow.bind(this)} className="arrow" />
              <div className="wrapperCarusal d-flex justify-content-center align-items-center">
                {this.props.ownprojects.images.map((elem, index) => {
-                   return <img key={index} src={elem} style={{transform: `translate(${this.state.counter * -100}%,0)`,  transition: 'transform .5s',}} className="imgPortfolio" />
+                   return <img key={index} src={elem} alt={elem} style={{transform: `translate(${this.state.counter * -100}%,0)`,  transition: 'transform .5s',}} className="imgPortfolio" />
                  })
                 }
               </div>
@@ -64,7 +64,7 @@ class Own_Single_Product extends Component{
                   <li className="p-1"><b>Tools: </b> {this.props.ownprojects.tools}</li>
                   {this.props.ownprojects.url.length > 0 &&
                         <li className="p-1"><b>Website-Link: </b>
-                           <a className="link" target="_blank" href={"http://"+this.props.ownprojects.url}>
+                           <a className="link" target="_blank" rel="noopener noreferrer" href={"http://"+this.props.ownprojects.url}>
                              {this.props.ownprojects.url}
                             </a>
                         </li>
@@ -78,4 +78,4 @@ class Own_Single_Product extends Component{
    }
 }
 
-export default Own_Single_Product;
+export default OwnSingleProduct;

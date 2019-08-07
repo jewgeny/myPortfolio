@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import {NavLink, Route} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
-class Kompetenzen_Menu extends Component{
+class KompetenzenMenu extends Component{
    render(){
       return(
         <>
@@ -16,4 +16,4 @@ class Kompetenzen_Menu extends Component{
    }
 }
 
-export default Kompetenzen_Menu;
+export default KompetenzenMenu;
