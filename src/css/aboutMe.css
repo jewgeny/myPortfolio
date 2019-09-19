@@ -10,6 +10,24 @@
   overflow: scroll;
 }
 
+.cvButton{
+  padding: 5px 10px;
+  margin: 20px 0;
+  border: .5px solid #909800;
+  background: transparent;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+
+.cvButton:hover{
+ opacity: .8;
+ color: #909800;
+}
+
+.cvButton:focus{
+  outline: none;
+ }
+
 .wrapperUp{
   animation-name: goUP;
   animation-duration: .5s;
