@@ -1,5 +1,6 @@
 .welcome{
   color:#909800;
+  margin-bottom: 30px !important;
 }
 
 .welcomeContainer{
@@ -10,9 +11,25 @@
   z-index: -1;
 }
 
+.toPrortfolioButton{
+  background: #909800;
+  color: white;
+  font-size: 25px;
+  padding: 10px 5px;
+  transition: .5s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.toPrortfolioButton:hover{
+  background: white;
+  color: #909800;
+  border: 2px solid #909800;
+  text-decoration: none;
+}
 
 
-@media screen and (max-width: 470px) {
+
+@media screen and (max-width: 500px) {
   .welcomeContainer{
     background: black;
     width: 70%;
@@ -23,5 +40,12 @@
     left: 15%;
     top: 40%;
     z-index: -1;
+  }
+
+  .toPrortfolioButton{
+    background: #909800;
+    color: white;
+    font-size: 18px;
+    padding: 10px 5px;
   }
 }

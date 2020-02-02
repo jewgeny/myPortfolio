@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
-import {FaTh, FaChevronRight, FaChevronLeft} from "react-icons/fa";
+import {FaSignInAlt, FaChevronRight, FaChevronLeft} from "react-icons/fa";
 
 class DciSingleProduct extends Component{
     constructor(props){
@@ -68,7 +68,7 @@ class DciSingleProduct extends Component{
                         </li>
                   }
               </ul>
-              <NavLink to="/portfolio" className="backToSelection">zurück zur Auswahl <FaTh className="mb-1" /></NavLink>
+              <a target="_blank" rel="noopener noreferrer" href={"http://"+this.props.dciprojects.url} className="backToSelection">zu der Website<FaSignInAlt className="iconToWebsite" /></a>
 
           </div>
        </div>

@@ -1,3 +1,138 @@
-.buttonDci{
-    border: "1px solid #909800" !important;
+.activeSelectionWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsSelectonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.boxProjekte{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  text-decoration: none !important;
+  background: none;
+  color: white;
+  padding: 5px;
+  margin: 0 1vw;
+  transition: all 1s;
+  width: 190px; 
+}
+
+.boxProjekte:hover{
+   border: 1px solid #909800;
+   color: #909800 !important;
+}
+
+.textProjectsSelecton {
+  width: 120px;
+  text-align: center;
+  margin-top: 15px;
+  border-bottom: 2px solid transparent;
+  transition: .5s ease-in-out;
+}
+
+.iconProjectsSelection {
+  font-size: 25px;
+}
+
+.activeSelection {
+  border: 1px solid #909800;
+}
+
+.activeSelection .iconProjectsSelection {
+  color: #909800;
+}
+
+.activeSelection .textProjectsSelecton {
+  border-bottom: 2px solid #909800;
+}
+
+.toggleMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #909800;
+  width: 150px;
+  margin: 0 auto;
+  padding: 5px;
+  display: none;
+}
+
+.selectionMobile{
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.toggleSign {
+  margin: 0;
+  margin-left: 10px;
+  color: #909800;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+@media (max-width: 500px){
+  .activeSelectionWrapper{
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    margin-bottom: -40px;
   }
+
+
+  .activeSelectionWrapper.showActiveSelection{
+    max-height: 350px;
+    animation-timing-function: ease-in-out;
+  }
+
+  .activeSelectionWrapper.closeSelectionWrapper{
+    max-height: 0;
+  }
+
+
+
+  .boxProjekte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none !important;
+    background: none;
+    color: white;
+    padding: 5px;
+    margin: 5px !important;
+    transition: all 1s;
+    height: 80px !important; 
+  }
+
+  .activeSelection {
+    border: none !important;
+  }
+
+  .toggleMenu {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px;
+  }
+
+  .selectionMobile{
+    padding: 0 !important;
+    text-align: center;
+  }
+  
+}

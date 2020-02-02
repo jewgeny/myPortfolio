@@ -72,13 +72,18 @@
 .backToSelection{
   color: #909800;
   font-size: 25px;
+  padding-left: 5px;
+  width: 210px;
+  border: 1px solid #909800;
+  transition: .5s ease-in-out;
 
 }
 
 .backToSelection:hover{
-  color: #909800;
+  color: white;
   text-decoration: none;
   opacity: .8;
+  
 }
 
 .wrapperCarusal{
@@ -92,10 +97,12 @@
    width: 350px !important;
    transition: all 1s;
    cursor: pointer;
+   border: 3px solid transparent;
 }
 
 .imgPortfolio:hover{
    filter:grayscale(100%);
+   border: 3px solid #909800 !important;
 }
 
 .arrow{
@@ -107,6 +114,12 @@
 
 .arrow:hover{
   opacity: .8;
+}
+
+.iconToWebsite {
+  margin-left: 7px;
+  margin-bottom: 3px;
+  font-size: 25px;
 }
 
 

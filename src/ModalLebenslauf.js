@@ -9,13 +9,13 @@ const ModalPortfolio = (props) => {
     const cvData = [
         {arrowIcon: <FaCaretRight />, date: "07/2019", titelDesc: "Einmonatige Vertretung bei NEXMO solution", desc: "Aktualisierung und Erweiterung eines vorhandenen Dashboards, Hamburg" },
         {arrowIcon: <FaCaretRight />, date: "2017 - 2018", titelDesc: "Atelier für Schrift und Form Schelter", desc: "Grafikdesigner, Münster bei Dieburg"},
-        {arrowIcon: <FaCaretRight />, date: "seit 2014", titelDesc: "Freiberufler als Mediendesigner", desc: "Programmierung von Websites (WordPress, HTML, CSS) und Erstellung diverser Grafiken für den Printbereich, Hamburg"},
+        {arrowIcon: <FaCaretRight />, date: "seit 2014", titelDesc: "Freiberufler als Mediendesigner", desc: "Programmierung von Websites (JavaScript, HTML, CSS) und Erstellung diverser Grafiken für den Printbereich, Hamburg"},
         {arrowIcon: <FaCaretRight />, date: "2011 - 2013", titelDesc: "Body Attack", desc: "Kommissionierer, Hamburg"},
     ]
 
     const educationData = [
-        {arrowIcon: <FaCaretRight />, date: "2018 - 2019", titelDesc: "Fernstudium zum Grafikdesigner", desc: "ILS - Institut für Lernsysteme, Hamburg"},
-        {arrowIcon: <FaCaretRight />, date: "2013 - 2015", titelDesc: "Atelier für Schrift und Form Schelter", desc: "Grafikdesigner, Münster bei Dieburg"},
+        {arrowIcon: <FaCaretRight />, date: "2018 - 2019", titelDesc: "Weiterbildung zum Webentwickler", desc: "DCI - Digital Career Institute, Hamburg"},
+        {arrowIcon: <FaCaretRight />, date: "2013 - 2015", titelDesc: "Fernstudium zum Grafikdesigner", desc: "ILS - Institut für Lernsysteme, Hamburg"},
         {arrowIcon: <FaCaretRight />, date: "2006 - 2007", titelDesc: "Fachabitur", desc: "Fachoberschule G6 - Raum und Objektgestaltung, Hamburg"},
         {arrowIcon: <FaCaretRight />, date: "2004 - 2006", titelDesc: "Technischer Zeichner", desc: "Schulische Berufsausbildung zum Technischen Zeichner bei Gewerbeschule Metalltechnik, Hamburg"},
     ]
@@ -31,6 +31,7 @@ const ModalPortfolio = (props) => {
                 centered
                 show={props.modalShow}
                 onHide={props.updateModalShow}
+                id="cv"
             >
                 <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">

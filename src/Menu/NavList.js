@@ -12,19 +12,19 @@ class NavList extends Component{
         <ul className="menuMobil nav navBarOpacity">
               <Logo />
               <li onClick={this.props.handleClick} className="nav-item">
-                 <NavLink to="/" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Home</NavLink>
+                 <NavLink exact to="/" activeClassName="activeLink" className="liMobil nav-link display-4 navListUnderline navListBorderTranparent">Home</NavLink>
               </li>
              <li onClick={this.props.handleClick} className="nav-item">
-                <NavLink to="/aboutMe" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Über mich</NavLink>
+                <NavLink to="/aboutMe" activeClassName="activeLink" className="liMobil nav-link display-4 navListUnderline navListBorderTranparent">Über mich</NavLink>
              </li>
              <li onClick={this.props.handleClick} className="nav-item">
-                <NavLink to="/kompetenzen" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kompetenzen</NavLink>
+                <NavLink to="/kompetenzen" activeClassName="activeLink" className="liMobil nav-link display-4 navListUnderline navListBorderTranparent">Kompetenzen</NavLink>
              </li>
              <li onClick={this.props.handleClick} className="nav-item">
-                <NavLink to="/portfolio" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Portfolio</NavLink>
+                <NavLink to="/portfolio" activeClassName="activeLink" className="liMobil nav-link display-4 navListUnderline navListBorderTranparent">Portfolio</NavLink>
              </li>
              <li onClick={this.props.handleClick} className="nav-item">
-                <NavLink to="/contact" className="liMobil nav-link text-white display-4 navListUnderline navListBorderTranparent">Kontakt</NavLink>
+                <NavLink to="/contact" activeClassName="activeLink" className="liMobil nav-link display-4 navListUnderline navListBorderTranparent">Kontakt</NavLink>
              </li>
         </ul>
 

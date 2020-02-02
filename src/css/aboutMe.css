@@ -39,9 +39,7 @@
 .pContainer{
   display: flex;
   justify-content: center;
-  overflow: scroll;
-  padding-right: 3vw;
-  height: 400px;
+  padding-right: 1vw;
 }
 
 ::-webkit-scrollbar {
@@ -58,18 +56,17 @@
 
 .contentWrapper{
   margin-top: 5vw;
-  display: flex !important;
-  padding: 0 15vw !important;
-  flex-direction: row;
-  justify-content: space-around;
+  display: flex;
+  padding: 0 15vw;
+  justify-content: center;
   align-items: center;
-
 }
 
 .meImg{
   border-radius: 50%;
   border: 5px solid #ccc;
   margin-bottom: 2vw;
+  margin-left: 3vw;
 }
 
 @keyframes goUP{
@@ -128,7 +125,8 @@ p{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
+ 
   .contentWrapper{
     margin-top: 2vw;
     display: flex !important;
@@ -139,12 +137,10 @@ p{
 
   }
 
-  .pContainer{
+  .pContainer p{
     margin-top: 8vw;
-    height: 90vw;
-    padding: 0;
-    width: auto;
-
+    height: 130vw;
+    width: 85%;
   }
 
   .meImg{
@@ -153,18 +149,14 @@ p{
     border: 3px solid #ccc;
     margin-bottom: 0;
     width: 45vw;
-    height: 47vw
+    height: 47vw;
+    margin-left: 0vw;
   }
 
   .hrAboutMe{
     width: 80%;
   }
 
-
-
-  p{
-    width: 80%;
-  }
 
   @keyframes makeImg{
     0%{width: 0; height: 0}

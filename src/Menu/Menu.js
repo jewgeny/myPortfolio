@@ -24,7 +24,7 @@ class Menu extends Component {
               <div className="d-flex float-right">
                   <svg
                     viewBox="0 0 96 96"
-                    height="1em"
+                    height="1.2em"
                     onClick={this.props.handleClick}
                     style={style}
                     className="menuMobilIcon position"
@@ -40,9 +40,8 @@ class Menu extends Component {
                           id="navicon"
                           fill="none"
                           stroke="currentColor"
-                          strokeWidth="14"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
+                          strokeWidth="12"
+                         
                          >
                           <line
                             transform={`translate(${x * 12}, ${x * -7}) rotate(${x * 45}, 7, 26)`}

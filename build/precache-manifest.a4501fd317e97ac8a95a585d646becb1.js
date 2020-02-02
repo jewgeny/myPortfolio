@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "296ec11e848244621503ac1d9a9c6bcd",
-    "url": "/static/media/banner2.296ec11e.jpg"
+    "revision": "5646e482b23605f71b92",
+    "url": "/static/css/main.c7747e2c.chunk.css"
   },
   {
-    "revision": "094c6839dcee5a04f843",
-    "url": "/static/css/main.c5ab60f3.chunk.css"
+    "revision": "5646e482b23605f71b92",
+    "url": "/static/js/main.5646e482.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "ed89c497c5b5406e1a8ff8d4824a9c46",
-    "url": "/static/media/cup.ed89c497.png"
+    "revision": "5d4d63583fb57d0b1e69",
+    "url": "/static/css/2.5890e90b.chunk.css"
   },
   {
-    "revision": "12be6cae83f1f7b43c67",
-    "url": "/static/js/2.12be6cae.chunk.js"
+    "revision": "5d4d63583fb57d0b1e69",
+    "url": "/static/js/2.5d4d6358.chunk.js"
   },
   {
     "revision": "ee8a42c1e49231772f7188ed79d7f689",
@@ -50,6 +50,10 @@ self.__precacheManifest = [
   {
     "revision": "effa1cd3aaeb27550f2ec0188c3cd0f9",
     "url": "/static/media/pension_cecilie.effa1cd3.jpg"
+  },
+  {
+    "revision": "0d6f13f32f52a9f89a49220b60d40e1f",
+    "url": "/static/media/sidereum.0d6f13f3.jpg"
   },
   {
     "revision": "40bec88992629cfaf851178a8e04cea9",
@@ -172,8 +176,8 @@ self.__precacheManifest = [
     "url": "/static/media/menuekarte.ee9d8ed7.jpg"
   },
   {
-    "revision": "094c6839dcee5a04f843",
-    "url": "/static/js/main.094c6839.chunk.js"
+    "revision": "296ec11e848244621503ac1d9a9c6bcd",
+    "url": "/static/media/banner2.296ec11e.jpg"
   },
   {
     "revision": "371a29fb0ec267690bcb5c4b8c65b54b",
@@ -230,6 +234,42 @@ self.__precacheManifest = [
   {
     "revision": "2f926df34018f48fce5c015499252b97",
     "url": "/static/media/responsive.2f926df3.jpg"
+  },
+  {
+    "revision": "189e7b8d1618592e673393e11de8a0f7",
+    "url": "/static/media/sterbeort.189e7b8d.jpg"
+  },
+  {
+    "revision": "9a1b1c269b7f6b965e92c22de07d41a0",
+    "url": "/static/media/kontaktdaten.9a1b1c26.jpg"
+  },
+  {
+    "revision": "47add734da94468954d4f823cf532a3e",
+    "url": "/static/media/sargauswahl.47add734.jpg"
+  },
+  {
+    "revision": "e57951e129736ce217c8a1b71cdec42a",
+    "url": "/static/media/zusammenfassung.e57951e1.jpg"
+  },
+  {
+    "revision": "36e947e6da6abe2ae0ff11fce1e9bc01",
+    "url": "/static/media/yaku_restaurante.36e947e6.jpg"
+  },
+  {
+    "revision": "6822c4da312781d17c2daf46098f444a",
+    "url": "/static/media/menu.6822c4da.jpg"
+  },
+  {
+    "revision": "16dcb6cfafa582999e3888a2c24ff879",
+    "url": "/static/media/ueber_uns.16dcb6cf.jpg"
+  },
+  {
+    "revision": "04a0916d8a7b5af6bc2c30f0b8e13fc9",
+    "url": "/static/media/reservierung.04a0916d.jpg"
+  },
+  {
+    "revision": "ab4ee8d9a41dcaf73e5f4ea8241b2970",
+    "url": "/static/media/contact.ab4ee8d9.jpg"
   },
   {
     "revision": "dfc81dd500e3821384f08af42e28d7ab",
@@ -328,19 +368,15 @@ self.__precacheManifest = [
     "url": "/static/media/smartphone_done.39b64646.jpg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/static/media/logo.5d5d9eef.svg"
-  },
-  {
     "revision": "dd7b19165ecb2b84a7d346ff07e502cc",
     "url": "/static/media/bg.dd7b1916.jpg"
   },
   {
-    "revision": "12be6cae83f1f7b43c67",
-    "url": "/static/css/2.cf229b0a.chunk.css"
+    "revision": "ed89c497c5b5406e1a8ff8d4824a9c46",
+    "url": "/static/media/cup.ed89c497.png"
   },
   {
-    "revision": "a5f132d3ccbb5dfab77e2023e6985a65",
+    "revision": "0733b3455a2db0db1f626cd5109221e9",
     "url": "/index.html"
   }
 ];

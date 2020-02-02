@@ -35,9 +35,8 @@ class AboutMe extends Component{
                    Das ist für mich die Voraussetzung für konstant gute Ergebnisse.
                    <br></br>
                    <button onClick={this.updateModalShow} className="cvButton">Vollstänger Lebenslauf</button>  
-                   <ModalPortfolio updateModalShow={this.updateModalShow} modalShow={this.state.showCV} />            
+                   <ModalPortfolio id="cv" updateModalShow={this.updateModalShow} modalShow={this.state.showCV} />            
                    
-                  
                  </p>
               </div>
 
