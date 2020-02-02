@@ -53,7 +53,7 @@ class PortfolioMenu extends Component{
    render(){
       return(
         <>
-        <div onClick={this.toggleMobileMenu} className="toggleMenu">
+        <div onClick={this.toggleMobileMenu} className="toggleMenu mb-3">
            <p className="selectionMobile">Auswahl<span className="toggleSign">+</span></p>
         </div>
         <span className="activeSelectionWrapper buttonWrapper">

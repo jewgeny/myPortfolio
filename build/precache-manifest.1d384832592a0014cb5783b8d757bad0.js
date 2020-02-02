@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "5646e482b23605f71b92",
-    "url": "/static/css/main.c7747e2c.chunk.css"
+    "revision": "aa29f1654c01dcc0acf4",
+    "url": "/static/css/main.33bb0c9c.chunk.css"
   },
   {
-    "revision": "5646e482b23605f71b92",
-    "url": "/static/js/main.5646e482.chunk.js"
+    "revision": "aa29f1654c01dcc0acf4",
+    "url": "/static/js/main.aa29f165.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "5d4d63583fb57d0b1e69",
+    "revision": "54c6c3c8d553d5b6351d",
     "url": "/static/css/2.5890e90b.chunk.css"
   },
   {
-    "revision": "5d4d63583fb57d0b1e69",
-    "url": "/static/js/2.5d4d6358.chunk.js"
+    "revision": "54c6c3c8d553d5b6351d",
+    "url": "/static/js/2.54c6c3c8.chunk.js"
   },
   {
     "revision": "ee8a42c1e49231772f7188ed79d7f689",
@@ -78,6 +78,10 @@ self.__precacheManifest = [
   {
     "revision": "015b4cb178c96141e9650fe79af92d8c",
     "url": "/static/media/todos.015b4cb1.jpg"
+  },
+  {
+    "revision": "ff2cedd053027c4f1668faa534b6b0f9",
+    "url": "/static/media/about_us.ff2cedd0.jpg"
   },
   {
     "revision": "5dd792778c27ddd52282b40bc30a03f9",
@@ -368,6 +372,46 @@ self.__precacheManifest = [
     "url": "/static/media/smartphone_done.39b64646.jpg"
   },
   {
+    "revision": "3fc76111e51c690b608607dd8f702632",
+    "url": "/static/media/metalltechnik_kuhn_config.3fc76111.jpg"
+  },
+  {
+    "revision": "09dfbf03cb230fb969ad22116f2aae65",
+    "url": "/static/media/vorschau.09dfbf03.jpg"
+  },
+  {
+    "revision": "573a6ac13007b50f8aa51f5953ca3fd0",
+    "url": "/static/media/zaun_auswahl_briefkasten.573a6ac1.jpg"
+  },
+  {
+    "revision": "277403d29e9e58f58119848d7eba220c",
+    "url": "/static/media/zaun_auswahl_farbe.277403d2.jpg"
+  },
+  {
+    "revision": "c3eb2ed83c81b9750d7825015d4560da",
+    "url": "/static/media/zaun_auswahl_luxus.c3eb2ed8.jpg"
+  },
+  {
+    "revision": "aa117c85fb403281b1e09e40a3fac2a4",
+    "url": "/static/media/zaun_vorschau_pdf.aa117c85.jpg"
+  },
+  {
+    "revision": "312de7a9b0bf48d24b64febcf62ae082",
+    "url": "/static/media/home_2.312de7a9.jpg"
+  },
+  {
+    "revision": "4493df05b8cedc225be3aa668bac0f94",
+    "url": "/static/media/home.4493df05.jpg"
+  },
+  {
+    "revision": "47f23ec0a31c1f797495097a8eebd6df",
+    "url": "/static/media/intro.47f23ec0.jpg"
+  },
+  {
+    "revision": "4b04ac76504e0aa96f0cb31125ecac0d",
+    "url": "/static/media/plattformen.4b04ac76.jpg"
+  },
+  {
     "revision": "dd7b19165ecb2b84a7d346ff07e502cc",
     "url": "/static/media/bg.dd7b1916.jpg"
   },
@@ -376,7 +420,7 @@ self.__precacheManifest = [
     "url": "/static/media/cup.ed89c497.png"
   },
   {
-    "revision": "0733b3455a2db0db1f626cd5109221e9",
+    "revision": "79b76bc63acf1582217ae32590f2d28b",
     "url": "/index.html"
   }
 ];
