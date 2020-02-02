@@ -56,7 +56,7 @@ class PortfolioMenu extends Component{
         <div onClick={this.toggleMobileMenu} className="toggleMenu mb-3">
            <p className="selectionMobile">Auswahl<span className="toggleSign">+</span></p>
         </div>
-        <span className="activeSelectionWrapper buttonWrapper">
+        <span className="activeSelectionWrapper buttonWrapper mb-3">
             <NavLink onClick={this.closeToggleMobileMenu} activeClassName="activeSelection" to="/portfolio/own_projects"  className="boxProjekte">
                <div  className="projectsSelectonWrapper">
                    <FaUser className="iconProjectsSelection" />
